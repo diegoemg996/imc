@@ -10,7 +10,7 @@ export const Form = ({setPeso, setEstatura, estatura, peso, setImc}) => {
 
   return (
     <div>
-        <label htmlFor='estatura' className="form-label">Estatura</label>
+        <label htmlFor='estatura' className="form-label">Estatura (en centrimetros)</label>
         <input 
             type="number" 
             className="form-control" 
@@ -19,7 +19,7 @@ export const Form = ({setPeso, setEstatura, estatura, peso, setImc}) => {
             onChange={(e)=>{setEstatura(e.target.value)}}
         />
 
-        <label htmlFor='peso' className="form-label">Peso</label>
+        <label htmlFor='peso' className="form-label">Peso (en kilos)</label>
         <input 
             type="number" 
             className="form-control" 
