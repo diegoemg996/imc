@@ -34,7 +34,7 @@ export const ResultInfo = ({imc}) => {
  }
 
  const setBgColor = ()=>{
-    return (imc < 18.5 || imc > 30) ? "alert alert-danger" : "alert alert-primary"
+    return (imc < 18.5 || imc > 25) ? "alert alert-danger" : "alert alert-primary"
  }
 
   return (
